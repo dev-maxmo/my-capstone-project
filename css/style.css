@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --rubik-doodle: 'Rubik Doodle Shadow', sans-serif;
+    --zeyada: 'Zeyada', cursive;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--poppins);
+    background-color: #E4E3D3;
+    color: #272727;
+    position: relative;
+}
+
+.my-name {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: right;
+    transform: rotate(-90deg);
+    font-family: var(--zeyada);
+    font-size: 2rem;
+    margin: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.my-name span {
+    margin-right: 0.5rem;
+}
+
+.intro-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.intro-heading {
+    font-family: var(--rubik-doodle);
+    font-size: 8rem;
+}
+
+.intro-text {
+    font-size: 1.6rem;
+}
